@@ -1,0 +1,815 @@
+/*===============UNIVERSAL STYLING=====================*/
+@font-face {
+    font-family: "Avenir";
+    src: url("/Font/AvenirNextLTPro-Regular.otf")
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Avenir";
+}
+
+body {
+    overflow-x: hidden;
+
+}
+
+/*===============NAVBAR STYLING JESSICA SECTION=====================*/
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    margin: 2% 7%;
+    cursor: pointer;
+
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    margin-left: 12px;
+    font-size: 0.87rem;
+    color: #647B64;
+}
+
+.nav-logo img {
+    width: 2.5rem;
+}
+
+a {
+    color: #333333;
+    text-decoration: none;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    color: #333333;
+    width: 50%;
+    font-size: 0.7rem;
+    font-weight: bold;
+
+}
+
+.hamburger-icon {
+    display: none;
+    color: #333333;
+}
+
+.register-btn {
+    border: 0px;
+    width: 93px;
+    height: 40px;
+    padding: 10px 15px;
+    color: #FEFEFE;
+    border-radius: 3px;
+    background: linear-gradient(102.3deg, #647B64 -4.62%, #66AC66 178.22%);
+}
+
+
+/*============NAVBAR MEDIA QUERIES=======*/
+
+@media only screen and (max-width: 768px) and (min-width: 0px) {
+
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden
+    }
+
+    .hamburger-icon {
+        display: block;
+        font-size: 1.8rem;
+        cursor: pointer;
+        color: #333333;
+    }
+
+    .register-btn {
+        display: none;
+    }
+
+    /* .links {
+        position: absolute;
+        height: 98vh;
+        top: 10vh;
+        background: linear-gradient(102.3deg, #647B64 -4.62%, #66AC66 178.22%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 8% 0%;
+        width: 100%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        font-size: 1rem;
+        z-index: 1;
+    }  */
+    .links li {
+        opacity: 0;
+    }
+
+    a {
+        color: #FEFEFE;
+    }
+
+    .nav-active {
+        transform: translateX(0%);
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+}
+
+@keyframes navLinksfade {
+    from {
+        opacity: 0;
+        transform: translate(50px);
+        overflow-x: hidden !important;
+
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0px);
+        overflow-x: hidden !important;
+
+    }
+}
+
+
+/*===============NONSO STYLING SECTION=====================*/
+.container-one {
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 8%;
+    align-items: center;
+}
+
+.container-one img {
+    width: 19rem;
+}
+
+.container-text {
+    width: 48%;
+}
+
+.container-text h1 {
+    font-size: 1.7rem;
+    width: 65%;
+    margin-bottom: 3%;
+}
+
+.container-text p {
+    font-size: 0.9rem;
+    width: 56%;
+    margin-bottom: 3%;
+    line-height: 1.3;
+    word-spacing: 0.2rem;
+}
+
+.button-one {
+    width: 350px;
+    height: 73px;
+    background: linear-gradient(102.3deg, #647B64 -4.62%, #66AC66 178.22%);
+    box-shadow: 0px 20px 40px rgba(128, 143, 150, 0.19);
+    border-radius: 2px;
+    border: 0px;
+    color: #FEFEFE;
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 5%;
+    align-items: center;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 7% 8%;
+    background-color: #fdfaf8;
+    color: #4F4F4F;
+}
+
+.box-one {
+    width: 65%;
+}
+
+.design {
+    background: linear-gradient(164.26deg, rgba(239, 128, 49, 0) -335.51%, rgba(239, 128, 49, 0.15) -20.24%, rgba(239, 128, 49, 0) 119.45%);
+    padding: 5%;
+}
+
+.box-two {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+.box-one p, .box-two p {
+    margin: 5% 0% 8% 0%;
+    font-size: 0.85rem;
+    line-height: 1.3;
+    word-spacing: 0.2rem;
+}
+
+.box-one h2, .box-two h5 {
+    margin-top: 5%;
+}
+
+.blocks {
+    padding: 5% 7%;
+    background-image: linear-gradient(to bottom, #fefbfa, #fefcfb, #fefcfb);
+}
+
+.blocks h1 {
+    margin: 1% 0%;
+    font-size: 1.7rem;
+    color: #647B64;
+    text-align: center;
+}
+
+.blocks h4 {
+    margin: 1% 0%;
+    font-size: 1.1rem;
+    color: #F3B562;
+    font-size: 1.27rem;
+    font-weight: 500;    
+    text-align: center;
+}
+
+.semi-blocks {
+    margin-top: 4%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.semi-blocks figure img{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-bottom: 6%; 
+}
+
+.semi-blocks p {
+    line-height: 1.3;
+    word-spacing: 0.2rem;
+    font-size: 0.9rem;
+
+}
+.semi-blocks h3{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.c{
+    position: absolute;
+}
+
+.dot{
+    width: 150px;
+    height: 150x;
+    position: relative;
+    top: 58%;
+    right: 8%;
+}
+.a {
+    height: 18rem;
+    width: 18em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    background: #FFFFFF;
+    color: #4F4F4F;
+    padding-left: 10%;
+}
+.c {
+    height: 18rem;
+    width: 18em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    background: #FFFFFF;
+    padding-left:2% ;
+    color: #4F4F4F;
+    z-index: 10;
+}
+.b {
+    height: 18rem;
+    width: 18em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    border-radius: 10px;
+    padding-left:10% ;
+    background-color: #647B64;
+    color: #FFFFFF;
+}
+
+.b p {
+    margin: 5% 0%;
+}
+
+.a p {
+    margin: 5% 0%;
+}
+.car-rental {
+    color: #4F4F4F;
+    background: #FEFEFE;
+    padding: 8% 8%;
+    border-radius: 8px;
+
+}
+
+.boxes {
+    /* padding: 8% 8%; */
+}
+
+
+
+
+
+/*============NONSO's MEDIA QUERIES=======*/
+
+@media only screen and (max-width:769px) and (min-width: 320px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        font-size: 1rem;
+    }
+}
+
+
+/* @media only screen and (max-width:1024px) and (min-width: 320px) {
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+    .container-text{
+        width: 100%;
+    }
+    .container-text h1{
+        width: 95%;
+        margin-bottom: 5%
+
+    }.container-text p{
+        width: 95%;
+        margin-bottom: 5%
+    }
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        font-size: 1rem;
+    }
+    .wrapper button{
+        margin-bottom: 10%;
+    }
+    .container-one{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 7% 8%;
+        background-color: #fdfaf8
+    }
+    .container-one button{
+        margin-bottom: 10%;
+    }
+    .container-text{
+        width: 90%;
+    }
+   .semi-blocks img{
+        width: 2%;
+    }
+    .button-one {
+        width: 200px;
+        height: 50px;
+        border-radius: 2px;
+        padding: 0% 5%;
+    }
+    
+}
+@media only screen and (max-width:1024px) and (min-width: 768px) {
+    .semi-blocks{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    } .b,.a{
+        height: 10rem;
+        width: 18rem;
+        margin-top: 5%;
+    }  
+   
+}
+@media only screen and (max-width:767px) and (min-width: 250px) {
+    .semi-blocks{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }.b,.a{
+        height: 11rem;
+        width: 18rem;
+        margin-top: 5%;
+    }
+   
+}  
+
+
+
+/*========================SOMTO STYLING SECTION=========================*/
+.display {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5% 0%;
+    background-image: linear-gradient(to bottom, #fefbfa, #fefcfb, #fefcfb);
+}
+
+.yellow {
+    background: linear-gradient(197.92deg, rgba(239, 128, 49, 0) -227.37%, rgba(239, 128, 49, 0.15) 1.58%, rgba(239, 128, 49, 0) 103.02%);
+    width: 30em;
+    height: 30em;
+    position: relative;
+    left: 7%;
+    margin-top: 7%;
+}
+
+.embla {
+    background-image: linear-gradient(to right, #fefefc, #fefdfb);
+
+}
+
+.client-img img {
+    width: 30rem;
+    position: absolute;
+
+}
+
+.first-text {
+    color: #F3B562;
+    font-size: 1.27rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 4%;
+}
+
+.second-text {
+    color: #647B64;
+    font-size: 2.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 6%;
+}
+
+.client-text {
+    width: 40%;
+}
+
+.client-text p {
+    color: #4F4F4F;
+    letter-spacing: 0.04em;
+    font-weight: 400;
+    font-size: 0.85rem;
+    line-height: 1.3rem;
+    margin-bottom: 7%;
+    width: 75%;
+
+}
+
+.embla__container {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 8%;
+
+}
+
+.embla__slide {
+    background-image: linear-gradient(to bottom, #fefefc, #fefdfb, #f1f3f1);
+    height: 28em;
+    border-radius: 15px;
+    width: 30%;
+    padding: 1% 1%;
+}
+
+.girl {
+    padding-top: 3%;
+}
+
+.embla-text {
+    font-weight: 400;
+    color: #4F4F4F;
+    text-align: left;
+    letter-spacing: 1px;
+    margin-top: 1em;
+    font-style: italic;
+    font-size: 0.85rem;
+    padding: 5%;
+}
+
+.pic-text {
+    float: right;
+    text-transform: uppercase;
+}
+
+.text-position {
+    color: #333333;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.text-name {
+    color: #4F4F4F;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.cto-big {
+    font-size: 16px;
+}
+
+.mon {
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 8%;
+}
+
+.arrow {
+    display: flex;
+}
+
+.container-arrow {
+    cursor: pointer;
+    border: 0px;
+    padding: 10px;
+}
+
+.two {
+    margin-left: 10px;
+    cursor: pointer;
+    background: linear-gradient(102.3deg, #647B64 -4.62%, #6ADD6A 178.22%);
+    border: 0px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+}
+.carousel{
+    background-image: linear-gradient(to bottom, #fefefc, #fefdfb, #ffffff);
+
+}
+/*============Somto's MEDIA QUERIES=======*/
+
+@media only screen and (max-width:1024px) and (min-width: 551px) {
+
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    .display {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        margin: 5% 5%;
+
+    }
+    .mon {
+        display: flex;
+        justify-content: space-between;
+        padding: 0% 0%;
+    }
+    .button-one {
+        width: 200px;
+        height: 50px;
+        border-radius: 2px;
+        padding: 0% 5%;
+    }
+
+    .carousel {
+        background-image: linear-gradient(to right, #fefefc, #fefdfb);
+
+    }
+
+    .client-text {
+        width: 95%;
+        margin-top: 5%;
+    }
+    .client-text p {
+        width: 95%;
+        font-weight: 1.1rem;
+    }
+
+    .client-img img {
+        width: 30rem;
+    }
+
+    .yellow {
+        width: 30rem;
+        height: 30rem;
+        position: relative;
+        left: 7%;
+        margin-top: 7%;
+    }
+
+    .embla__container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        place-items: center;
+    }
+
+    .embla__slide {
+        height: 30em;
+        border-radius: 10px;
+        width: 90%;
+        padding: 1% 1%;
+        margin-top: 10%;
+    }
+
+    .snoop {
+        margin-left: 80%;
+    }
+
+
+
+}
+
+@media only screen and (max-width:550px) and (min-width: 0px) {
+
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    .display {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        padding: 5% 5%;
+    }
+
+    .client-text {
+        width: 100%;
+    }
+
+    .client-img img {
+        width: 17rem;
+    }
+
+    .yellow {
+        width: 17rem;
+        height: 17em;
+        position: relative;
+        left: 7%;
+        margin-top: 7%;
+    }
+
+    .button-one {
+        width: 200px;
+        height: 50px;
+        border-radius: 2px;
+        padding: 0% 5%;
+    }
+
+    .embla__container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 7% 7%;
+
+    }
+
+    .embla__slide {
+        height: 28em;
+        border-radius: 10px;
+        width: 100%;
+        padding: 1% 1%;
+        margin-top: 10%;
+    }
+
+    .second-text {
+        font-size: 1.8rem;
+    }
+
+    .first-text {
+        font-size: 1.2rem;
+        margin-top: 7%;
+
+    }
+
+    .client-text p {
+        width: 95%;
+        font-weight: 0.95rem;
+    }
+}
+
+/*===============FOOTER STYLING JESSICA SECTION=====================*/
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background: #F0DCC5;
+    place-items: center;
+    padding: 5%;
+    cursor: pointer;
+}
+
+.aside {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%
+}
+
+.footer section {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 0%;
+    justify-content: baseline;
+    align-items: flex-start;
+    line-height: 1.6;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li {
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+}
+
+.list-paragraph {
+    width: 88%
+}
+
+.copy {
+    margin-top: 20px
+}
+
+footer h3 {
+    color: #647B64;
+    margin-bottom: 8%;
+}
+
+footer textarea {
+    height: 115px;
+    width: 283px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 0px;
+    padding: 5%;
+}
+
+.lg {
+    margin-bottom: 10px;
+}
+
+.footer-btn {
+    width: 283px;
+    height: 56.6px;
+    background: linear-gradient(102.3deg, #647B64 -4.62%, #66AC66 178.22%);
+    color: #FEFEFE;
+    border: 0px;
+    border-radius: 1.55068px;
+    font-size: 12.4055px;
+    text-align: start;
+    padding-left: 20%;
+    border-radius: 5px;
+}
+
+
+/*============FOOTER MEDIA QUERIES========*/
+
+@media only screen and (max-width:1024px) and (min-width: 320px) {
+
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        place-items: start;
+        font-size: 1.15rem;
+    }
+}
