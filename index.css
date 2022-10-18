@@ -151,10 +151,33 @@ a {
 .container-one {
     display: flex;
     justify-content: space-between;
-    padding: 3% 8%;
+    padding: 1% 10%;
     align-items: center;
-}
+    /*background-image: linear-gradient(to right,#fefaf5 #fbf1e7 #f8ece8, #fefaf5 #fbf1e7 #f8ece8, #e6e6e1);*/
 
+    background-image: linear-gradient(to bottom, #fefaf5, #fbf1e7, #f8ece8);
+     background-image: linear-gradient(to right, #fefcf8, #fbf1e6, #ede9e3); 
+ }
+
+ .orange-ellipse{
+    width: 3em;
+    height: 3em;
+    position: absolute;
+    left: 3em;
+    right: 10em;
+    top: 8em;
+    bottom: 20em;
+
+} 
+.grey-ellipse{
+    position: absolute;
+    width: 8em;
+    height: 8em;
+    left: -8em;
+    right: 0;
+    top: 35em;
+    bottom: 0;
+}
 .container-one img {
     width: 19rem;
 }
@@ -340,7 +363,7 @@ a {
 
 /*============NONSO's MEDIA QUERIES=======*/
 
-@media only screen and (max-width:769px) and (min-width: 320px) {
+/* @media only screen and (max-width:769px) and (min-width: 320px) {
     .wrapper {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -348,8 +371,19 @@ a {
     }
 }
 
-
-/* @media only screen and (max-width:1024px) and (min-width: 320px) {
+@media only screen and (max-width: 900px) and (min-width: 320px) {
+    .container-text .orange-ellipse{
+        width: 2em;
+        height: 2em;
+        position: absolute;
+        top: 2em;
+        left: 4em;
+    }
+    .container-text h1{
+        line-height: 1em;
+    }
+}
+ @media only screen and (max-width:1024px) and (min-width: 320px) {
     html,
     body {
         margin: 0;
@@ -367,6 +401,12 @@ a {
     }.container-text p{
         width: 95%;
         margin-bottom: 5%
+    }
+    .golf-playing-lady{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .wrapper {
         display: grid;
@@ -387,6 +427,13 @@ a {
     }
     .container-text{
         width: 90%;
+    }
+    .container-text .orange-ellipse{
+        position: absolute;
+        top: 2em;
+        left: 4em;
+        width: 3em;
+        height: 3em;
     }
    .semi-blocks img{
         width: 2%;
@@ -421,7 +468,7 @@ a {
     }
    
 }  
-
+*/
 
 
 /*========================SOMTO STYLING SECTION=========================*/
