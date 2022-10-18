@@ -857,6 +857,24 @@ footer textarea {
     padding-left: 10%;
 }
 
+ /* icon container styling */
+
+ .footer-icon {
+    display: flex;
+    width: 160px;
+    justify-content: space-between;
+  }
+
+  .icon-container {
+    display: flex;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+     background: rgba(100, 124, 100, 0.1);
+    justify-content: center;
+  }
+
 /*============FOOTER MEDIA QUERIES========*/
 
 @media only screen and (max-width:1024px) and (min-width: 320px) {
