@@ -152,31 +152,10 @@ a {
 .container-one {
     display: flex;
     justify-content: space-between;
-    padding: 1% 10%;
+    padding: 3% 8%;
     align-items: center;
-    background-image: linear-gradient(to bottom, #fefaf5, #fbf1e7, #f8ece8);
-    background-image: linear-gradient(to right, #fefcf8, #fbf1e6, #ede9e3); 
- }
-
-/*  .orange-ellipse{
-    width: 3em;
-    height: 3em;
-    position: absolute;
-    left: 3em;
-    right: 10em;
-    top: 8em;
-    bottom: 20em;
-
-} 
-.grey-ellipse{
-    position: absolute;
-    width: 8em;
-    height: 8em;
-    left: -8em;
-    right: 0;
-    top: 35em;
-    bottom: 0;
 }
+
 .container-one img {
     width: 19rem;
 }
@@ -211,7 +190,7 @@ a {
     justify-content: space-between;
     padding: 0% 5%;
     align-items: center;
-} */
+}
 
 .wrapper {
     display: grid;
@@ -408,7 +387,6 @@ a {
 
 /*============NONSO's MEDIA QUERIES=======*/
 
-
 @media only screen and (max-width:601px) and (min-width:0px) {
     .wrapper {
         display: grid;
@@ -426,19 +404,6 @@ a {
     color: #F3B562;
 }
 
-/* @media only screen and (max-width: 900px) and (min-width: 320px) {
-    .container-text .orange-ellipse{
-        width: 2em;
-        height: 2em;
-        position: absolute;
-        top: 2em;
-        left: 4em;
-    }
-    .container-text h1{
-        line-height: 1em;
-    }
-} */
- @media only screen and (max-width:1024px) and (min-width: 320px) {
 .second-t{
     font-size: 1.25rem;
     font-weight: 600;
@@ -451,7 +416,6 @@ a {
    
     width: 75%;
 }
-
 }
 
 
@@ -473,12 +437,6 @@ a {
     }.container-text p{
         width: 95%;
         margin-bottom: 5%
-    }
-    .golf-playing-lady{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
     .wrapper {
         display: grid;
@@ -503,22 +461,6 @@ a {
     .container-text{
         width: 90%;
     }
-    .container-text .orange-ellipse{
-        position: absolute;
-        top: 2em;
-        left: 4em;
-        width: 3em;
-        height: 3em;
-    }
-   .semi-blocks img{
-        width: 2%;
-    }
-    .button-one {
-        width: 200px;
-        height: 50px;
-        border-radius: 2px;
-        padding: 0% 5%;
-    }
     
   .blocks{
     display: none;
@@ -529,18 +471,6 @@ a {
     color: #647B64;
 }
 }
-@media only screen and (max-width:767px) and (min-width: 250px) {
-    .semi-blocks{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-    }.b,.a{
-        height: 11rem;
-        width: 18rem;
-        margin-top: 5%;
-    }
-   
-}  
-
 @media only screen and (max-width:1165px) and (min-width: 1024px) {
     .blocks{
         display: none;
