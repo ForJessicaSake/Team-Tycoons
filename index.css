@@ -149,12 +149,6 @@ a {
 }
 
 /*===============NONSO STYLING SECTION=====================*/
-.container-one {
-    display: flex;
-    justify-content: space-between;
-    padding: 3% 8%;
-    align-items: center;
-}
 
 .container-one img {
     width: 19rem;
@@ -176,6 +170,38 @@ a {
     margin-bottom: 3%;
     line-height: 1.3;
     word-spacing: 0.2rem;
+}
+
+.container-one {
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 10%;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #fefaf5, #fbf1e7, #f8ece8);
+    background-image: linear-gradient(to right, #fefcf8, #fbf1e6, #ede9e3); 
+ }
+
+ .orange-ellipse{
+    width: 3em;
+    height: 3em;
+    position: absolute;
+    left: 3em;
+    right: 10em;
+    top: 8em;
+    bottom: 20em;
+
+} 
+.grey-ellipse{
+    position: absolute;
+    width: 8em;
+    height: 8em;
+    left: -8em;
+    right: 0;
+    top: 35em;
+    bottom: 0;
+}
+.container-one img {
+    width: 19rem;
 }
 
 .button-one {
@@ -856,6 +882,24 @@ footer textarea {
 .support{
     padding-left: 10%;
 }
+
+ /* icon container styling */
+
+ .footer-icon {
+    display: flex;
+    width: 160px;
+    justify-content: space-between;
+  }
+
+  .icon-container {
+    display: flex;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+     background: rgba(100, 124, 100, 0.1);
+    justify-content: center;
+  }
 
 /*============FOOTER MEDIA QUERIES========*/
 
