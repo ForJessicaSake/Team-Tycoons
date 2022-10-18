@@ -879,24 +879,3 @@ footer textarea {
         font-size: 1.15rem;
     }
 }
-
-
- /* icon container styling */
-
- .footer-icon {
-    display: flex;
-    width: 160px;
-    justify-content: space-between;
-  }
-  
-  .icon-container {
-    display: flex;
-    align-items: center;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    /* border: 1px solid #647B64; */
-    background: rgba(100, 124, 100, 0.1);
-    /* opacity: 0.1; */
-    justify-content: center;
-  }
