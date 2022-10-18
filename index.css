@@ -154,13 +154,11 @@ a {
     justify-content: space-between;
     padding: 1% 10%;
     align-items: center;
-    /*background-image: linear-gradient(to right,#fefaf5 #fbf1e7 #f8ece8, #fefaf5 #fbf1e7 #f8ece8, #e6e6e1);*/
-
     background-image: linear-gradient(to bottom, #fefaf5, #fbf1e7, #f8ece8);
-     background-image: linear-gradient(to right, #fefcf8, #fbf1e6, #ede9e3); 
+    background-image: linear-gradient(to right, #fefcf8, #fbf1e6, #ede9e3); 
  }
 
- .orange-ellipse{
+/*  .orange-ellipse{
     width: 3em;
     height: 3em;
     position: absolute;
@@ -213,7 +211,7 @@ a {
     justify-content: space-between;
     padding: 0% 5%;
     align-items: center;
-}
+} */
 
 .wrapper {
     display: grid;
@@ -428,7 +426,7 @@ a {
     color: #F3B562;
 }
 
-@media only screen and (max-width: 900px) and (min-width: 320px) {
+/* @media only screen and (max-width: 900px) and (min-width: 320px) {
     .container-text .orange-ellipse{
         width: 2em;
         height: 2em;
@@ -439,7 +437,7 @@ a {
     .container-text h1{
         line-height: 1em;
     }
-}
+} */
  @media only screen and (max-width:1024px) and (min-width: 320px) {
 .second-t{
     font-size: 1.25rem;
