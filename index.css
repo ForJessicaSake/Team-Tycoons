@@ -373,6 +373,7 @@ header {
     padding-left: 2%;
     color: #4F4F4F;
     z-index: 1;
+
 }
 
 .d {
@@ -387,7 +388,6 @@ header {
     z-index: 10000;
     position: absolute;
     background-color: #FFFFFF;
-
 }
 
 .b {
@@ -974,6 +974,7 @@ footer ul {
 footer li {
     margin-bottom: 20px;
     font-size: 0.9rem;
+    color: #333333;
 }
 
 .list-paragraph {
