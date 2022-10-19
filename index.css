@@ -309,7 +309,7 @@ header {
 }
 
 .blocks {
-    padding: 5% 7%;
+    padding: 7% 7%;
     background-image: linear-gradient(to bottom, #fefbfa, #fefcfb, #fefcfb);
 }
 
@@ -630,7 +630,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 5% 0%;
+    padding: 7% 2%;
     background-image: linear-gradient(to bottom, #fefbfa, #fefcfb, #fefcfb);
 }
 
@@ -659,6 +659,7 @@ header {
     font-weight: 500;
     text-transform: uppercase;
     padding-bottom: 4%;
+    padding-top: 7%;
 }
 
 .second-text {
