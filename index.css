@@ -607,7 +607,13 @@ header {
     }
 }
 
+@media only screen and (max-width:2000px) and (min-width:1400px) {
+  
+    .design{
+        width: 80%;
+    }
 
+}
 
 /*========================SOMTO STYLING SECTION=========================*/
 .display {
