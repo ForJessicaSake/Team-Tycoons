@@ -13,8 +13,9 @@
 
 body, html {
     width: 100%;
-    overscroll-behavior-x: none;
     overflow-x: hidden !important;
+    -ms-overflow-style: none;  
+
 }
 
 /*===============NAVBAR STYLING JESSICA SECTION=====================*/
@@ -113,7 +114,7 @@ a {
         transition: transform 0.5s ease-in;
         font-size: 1rem;
         z-index: 1;
-        -ms-overflow-style: none;  /* IE and Edge */
+        -ms-overflow-style: none;  
         width: 100%;
     }
 
@@ -132,8 +133,7 @@ a {
 @media screen and  (max-width: 768px) and (min-width: 0px)  {
     .nav-active {
         overflow: hidden !important;
-        overscroll-behavior-x: none;
-
+        -ms-overflow-style: none;  
     }
 }
 @keyframes navLinksfade {
