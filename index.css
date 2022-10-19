@@ -1052,6 +1052,6 @@ footer textarea {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         place-items: start;
-        font-size: 1.15rem;
+        font-size: 1.16rem;
     }
 }
