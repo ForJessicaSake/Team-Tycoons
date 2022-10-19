@@ -2,7 +2,6 @@ const navslide = () => {
     const burger = document.querySelector(".hamburger-icon");
     const links = document.querySelector(".links");
     const navLinks = document.querySelectorAll(".links li");
-    const unactive = document.querySelector(".unactive");
 
 
     burger.addEventListener("click", () => {
@@ -12,7 +11,7 @@ const navslide = () => {
         navLinks.forEach((link, index) => {
             if (link.style.animation) {
                 link.style.animation = "";
-            } else {
+            } else{
                 link.style.animation = `navLinksfade 0.5s ease forwards ${index / 7 + 0.5}s`;
             }
         });
