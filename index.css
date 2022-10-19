@@ -14,8 +14,6 @@
 body, html {
     width: 100%;
     overflow-x: hidden !important;
-    -ms-overflow-style: none;  
-
 }
 
 /*===============NAVBAR STYLING JESSICA SECTION=====================*/
@@ -100,7 +98,7 @@ a {
         display: none;
     }
 
-    .links {
+   /* .links {
         position: absolute;
         height: 100vh;
         top: 10vh;
@@ -117,7 +115,7 @@ a {
         -ms-overflow-style: none;  
         width: 100%;
     }
-
+*/
     .links li {
         opacity: 0;
     }
