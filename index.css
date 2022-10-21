@@ -1046,16 +1046,7 @@ header {
 .cto-big{
     font-size: 0.5rem;
 }
-    .embla__slide {
-        height: 19rem;
-        border-radius: 10px;
-        width: 100%;
-        padding: 1% 1%;
-        margin-top: 50%;   
-        margin-bottom: 20%;
-
-    }
-
+    
     .second-text {
         font-size: 1.8rem;
     }
@@ -1079,9 +1070,37 @@ header {
         font-size: 1.1rem;
     }
 }
+@media only screen and (max-width:600px) and (min-width: 0px) {
+    .embla__slide {
+        height: 22rem;
+        border-radius: 10px;
+        width: 190rem;
+        padding: 1% 10%;
+        margin-top: 50%;
+        margin-bottom: 20%;
+    }  
+    .embla__slide img{
+        width: 6rem
+    }
+    .embla__slide p{
+        width: 100%;
+        font-size:0.65rem
+        }
+     .girl{
+        width: 50%;
+    }
+    
+    .swiper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        place-items: center;
+        column-gap: 5rem;
+    }
+}
 @media only screen and (max-width:450px) and (min-width: 0px) {
     .embla__slide {
-        height: 18rem;
+        height: 19rem;
         border-radius: 10px;
         width: 90rem;
         padding: 1% 40%;
@@ -1092,7 +1111,8 @@ header {
         width: 6rem
     }
     .embla__slide p{
-        width: 140%
+        width: 140%;
+        font-size: 0.6rem;
         }
      .girl{
         width: 50%;
@@ -1112,6 +1132,8 @@ header {
     }
     
 }
+
+
 
 /*===============FOOTER STYLING JESSICA SECTION=====================*/
 
