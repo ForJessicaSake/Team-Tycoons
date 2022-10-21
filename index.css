@@ -553,10 +553,13 @@ header {
 
    .blocks h4{
     margin-bottom: 5%;
+    font-size: 1rem;
+
    }
    
    .blocks h1{
     margin-bottom: 6%;
+    font-size: 1.5rem;
    }
    
    .c {
