@@ -826,6 +826,8 @@ header {
     width: 95%;
     padding: 1% 1%;
     margin-top: 15%;
+    margin-bottom: 15%;
+
 }
 
 .girl {
@@ -983,6 +985,7 @@ header {
         width: 100%;
         padding: 1% 1%;
         margin-top: 10%;
+        margin-bottom: 25%;
     }
 
     .snoop {
@@ -1077,7 +1080,7 @@ header {
         width: 190rem;
         padding: 1% 10%;
         margin-top: 50%;
-        margin-bottom: 20%;
+        margin-bottom: 30%;
     }  
     .embla__slide img{
         width: 6rem
@@ -1105,7 +1108,7 @@ header {
         width: 90rem;
         padding: 1% 40%;
         margin-top: 50%;
-        margin-bottom: 20%;
+        margin-bottom: 40%;
     }  
     .embla__slide img{
         width: 6rem
