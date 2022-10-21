@@ -20,6 +20,15 @@ const navslide = () => {
 
 navslide();
 
+let swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+
 
 // // Javascript for Hero/Nav section assigned to Juliet
 // const overlayMenu = document.querySelector(".links");

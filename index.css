@@ -15,7 +15,36 @@ body, html {
     width: 100%;
     overflow-x: hidden !important;
     max-width: 1350px;
+    margin: 0 auto;
 }
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    margin-left: 3%;
+    margin-bottom: 5%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+
+  
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
 
 /*===============NAVBAR STYLING JESSICA SECTION=====================*/
 
@@ -131,6 +160,7 @@ a {
         transform: translateX(0%);
     }
 }
+
 @media screen and  (max-width: 768px) and (min-width: 0px)  {
     .nav-active {
         overflow: hidden !important;
@@ -197,9 +227,10 @@ header {
     width: 2.5em;
     height: 2.5em;
     position: absolute;
-    left: 3.7em;
+    left: 4em;
     top: 9.5em;
     bottom: 20em;
+    max-width: 50%;
 }
 
 .grey-ellipse {
@@ -469,7 +500,7 @@ header {
 
     .container-one {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         padding: 7% 8%;
         place-items: center;
     }
@@ -479,18 +510,18 @@ header {
     }
 
     .container-text {
-        width: 90%;
+        width: 100%;
     }
 
     .container-text h1 {
         font-size: 1rem;
-        width: 70%;
+        width: 100%;
         margin-bottom: 6%;
     }
 
     .container-text p {
-        font-size: 0.8rem;
-        width: 95%;
+        font-size: 0.7rem;
+        width: 120%;
         margin-bottom: 6%;
 
     }
@@ -511,14 +542,45 @@ header {
         color: #647B64;
     }
 
-    .blocks {
-        display: none;
-    }
-
     .car-rental {
 
         width: 75%;
     }
+    
+   .blocks{
+    padding:25% 0% ;
+   }
+
+   .blocks h4{
+    margin-bottom: 5%;
+   }
+   
+   .blocks h1{
+    margin-bottom: 6%;
+   }
+   
+   .c {
+    height: 18rem;
+    width: 14rem;
+}
+
+.d {
+    height: 18rem;
+    width: 14rem;
+    display: none;
+}
+
+.b {
+    height: 18rem;
+    width: 14rem;
+}
+
+.semi-blocks {
+    margin-left: 5%;
+    display: grid;
+    column-gap: 25%;
+    grid-template-columns: repeat(3, 1fr);
+}
 }
 
 
@@ -553,7 +615,7 @@ header {
 
     .wrapper {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         font-size: 1rem;
     }
 
@@ -595,10 +657,39 @@ header {
         width: 90%;
     }
 
-    .blocks {
-        display: none;
+    .blocks{
+        padding:10% 0% ;
+       }
+    
+       .blocks h4{
+        margin-bottom: 5%;
+       }
+       
+       .blocks h1{
+        margin-bottom: 6%;
+       }
+       
+       .c {
+        height: 18rem;
+        width: 14rem;
     }
-
+    
+    .d {
+        height: 18rem;
+        width: 14rem;
+    }
+    
+    .b {
+        height: 18rem;
+        width: 14rem;
+    }
+    
+    .semi-blocks {
+        margin-left: 5%;
+        display: grid;
+        column-gap: 3%;
+        grid-template-columns: repeat(3, 1fr);
+    }
     .second-t {
         font-size: 1rem;
         font-weight: 600;
@@ -607,8 +698,39 @@ header {
 }
 
 @media only screen and (max-width:1165px) and (min-width: 1024px) {
-    .blocks {
-        display: none;
+    
+    .blocks{
+        padding:10% 0% ;
+       }
+    
+       .blocks h4{
+        margin-bottom: 5%;
+       }
+       
+       .blocks h1{
+        margin-bottom: 6%;
+       }
+       
+       .c {
+        height: 18rem;
+        width: 18rem;
+    }
+    
+    .d {
+        height: 18rem;
+        width: 18rem;
+    }
+    
+    .b {
+        height: 18rem;
+        width: 18rem;
+    }
+    
+    .semi-blocks {
+        margin-left: 5%;
+        display: grid;
+        column-gap: 3%;
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
@@ -618,10 +740,8 @@ header {
         width: 80%;
     }
     .orange-ellipse {
-        top:16rem;
-        left: 8.3rem;
+        display: none;
     }
-
 
 }
 
@@ -643,10 +763,10 @@ header {
     margin-top: 7%;
 }
 
-.embla {
-    background-image: linear-gradient(to right, #fefefc, #fefdfb);
 
-}
+/* .embla {
+    background-image: linear-gradient(to right, #fefefc, #fefdfb);
+} */
 
 .client-img img {
     width: 30rem;
@@ -685,20 +805,21 @@ header {
 
 }
 
-.embla__container {
+/* .embla__container {
     cursor: pointer;
     display: flex;
     justify-content: space-between;
     padding: 5% 8%;
 
-}
+} */
 
 .embla__slide {
-    background-image: linear-gradient(to bottom, #fefefc, #fefdfb, #f1f3f1);
-    height: 28em;
-    border-radius: 15px;
-    width: 30%;
+    background-image: linear-gradient(to bottom, #ffffff, #ffffff, #f1f3f1);
+    height: 27em;
+    border-radius: 5px;
+    width: 95%;
     padding: 1% 1%;
+    margin-top: 15%;
 }
 
 .girl {
@@ -741,7 +862,7 @@ header {
 .mon {
     display: flex;
     justify-content: space-between;
-    padding: 0% 8%;
+    padding: 1% 8%;
 }
 
 .arrow {
@@ -853,7 +974,7 @@ header {
     .embla__slide {
         height: 30em;
         border-radius: 10px;
-        width: 90%;
+        width: 100%;
         padding: 1% 1%;
         margin-top: 10%;
     }
@@ -877,7 +998,7 @@ header {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         align-items: center;
-        padding: 25% 10% 0% 10%;
+        padding: 5% 10% 0% 10%;
     }
 
     .client-text {
@@ -904,19 +1025,27 @@ header {
         padding: 0% 5%;
     }
 
-    .embla__container {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        padding: 7% 7%;
+     .swiper-wrapper img{
+        width: 70%;
     }
-
+    .girl{
+        width: 50%;
+    }
+    .embla__slide{
+        width:100rem;
+    }
+.swiper-wrapper p{
+    font-size: 0.55rem;
+}
+.cto-big{
+    font-size: 0.5rem;
+}
     .embla__slide {
-        height: 28em;
+        height: 20em;
         border-radius: 10px;
         width: 100%;
         padding: 1% 1%;
         margin-top: 10%;
-
     }
 
     .second-text {
@@ -940,6 +1069,18 @@ header {
 
     .second-text {
         font-size: 1.1rem;
+    }
+}
+@media only screen and (max-width:450px) and (min-width: 0px) {
+    .embla__slide {
+        height: 18rem;
+        border-radius: 10px;
+        width: 100%;
+        padding: 1% 1%;
+        margin-top: 10%;
+    }  
+     .girl{
+        width: 50%;
     }
 }
 
