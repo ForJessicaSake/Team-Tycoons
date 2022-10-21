@@ -1051,7 +1051,9 @@ header {
         border-radius: 10px;
         width: 100%;
         padding: 1% 1%;
-        margin-top: 10%;
+        margin-top: 50%;   
+        margin-bottom: 20%;
+
     }
 
     .second-text {
@@ -1083,7 +1085,8 @@ header {
         border-radius: 10px;
         width: 90rem;
         padding: 1% 40%;
-        margin-top: 10%;
+        margin-top: 50%;
+        margin-bottom: 20%;
     }  
     .embla__slide img{
         width: 6rem
