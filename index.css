@@ -970,12 +970,12 @@ header {
         left: 7%;
         margin-top: 7%;
     }
-
+/* 
     .embla__container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         place-items: center;
-    }
+    } */
 
     .embla__slide {
         height: 30em;
@@ -986,7 +986,7 @@ header {
     }
 
     .snoop {
-        margin-left: 80%;
+        margin-left: 10%;
     }
 }
 
@@ -1047,7 +1047,7 @@ header {
     font-size: 0.5rem;
 }
     .embla__slide {
-        height: 20em;
+        height: 19rem;
         border-radius: 10px;
         width: 100%;
         padding: 1% 1%;
@@ -1081,13 +1081,33 @@ header {
     .embla__slide {
         height: 18rem;
         border-radius: 10px;
-        width: 100%;
-        padding: 1% 1%;
+        width: 90rem;
+        padding: 1% 40%;
         margin-top: 10%;
     }  
+    .embla__slide img{
+        width: 6rem
+    }
+    .embla__slide p{
+        width: 140%
+        }
      .girl{
         width: 50%;
     }
+    .md{
+        margin-left: 120%;
+    }
+    .snoop{
+        display: none;
+    }
+    .swiper{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        place-items: center;
+        column-gap: 5rem;
+    }
+    
 }
 
 /*===============FOOTER STYLING JESSICA SECTION=====================*/
