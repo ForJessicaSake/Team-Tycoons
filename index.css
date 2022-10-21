@@ -16,13 +16,16 @@ body, html {
     overflow-x: hidden !important;
     max-width: 1350px;
     margin: 0 auto;
+    background-image: linear-gradient(to bottom, #fefaf5, #fbf1e7, #f8ece8, #fefaf5);
+
 }
 
 .swiper {
     width: 100%;
     height: 100%;
-    margin-left: 3%;
-    margin-bottom: 5%;
+    padding-left: 3%;
+    padding-bottom: 5%;
+    background-color: #ffffff;
   }
 
   .swiper-slide {
@@ -340,7 +343,7 @@ header {
 }
 
 .blocks {
-    padding: 7% 7%;
+    padding: 10% 7%;
     background-image: linear-gradient(to bottom, #fefbfa, #fefcfb, #fefcfb);
 }
 
@@ -548,18 +551,18 @@ header {
     }
     
    .blocks{
-    padding:25% 0% ;
+    padding:27% 0% ;
    }
 
    .blocks h4{
     margin-bottom: 5%;
-    font-size: 1rem;
+    font-size: 0.95rem;
 
    }
    
    .blocks h1{
     margin-bottom: 6%;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
    }
    
    .c {
