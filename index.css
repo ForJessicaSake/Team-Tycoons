@@ -552,6 +552,7 @@ header {
     
    .blocks{
     padding:27% 0% ;
+
    }
 
    .blocks h4{
@@ -564,28 +565,43 @@ header {
     margin-bottom: 6%;
     font-size: 1.2rem;
    }
+   .blocks p{
+    font-size: 0.7rem;       }
    
+    .blocks h3{
+        font-size: 0.9rem;       }
+       
    .c {
-    height: 18rem;
-    width: 14rem;
+    height: 12rem;
+    width: 12rem;
+    box-shadow: 0px 20px 40px rgba(128, 143, 150, 0.19);
+    background: linear-gradient(358.27deg, rgba(100, 123, 100, 0.77) -118.86%, rgba(100, 123, 100, 0) 25.62%, rgba(100, 123, 100, 0) 98.53%), #FFFFFF
+
 }
 
 .d {
-    height: 18rem;
-    width: 14rem;
+    height: 12rem;
+    width: 10rem;
     display: none;
 }
 
 .b {
-    height: 18rem;
-    width: 14rem;
+    height: 12rem;
+    width: 12rem;
 }
 
 .semi-blocks {
     margin-left: 5%;
     display: grid;
-    column-gap: 25%;
+    column-gap: 13%;
     grid-template-columns: repeat(3, 1fr);
+}
+.dot {
+    width: 150px;
+    height: 150x;
+    position: relative;
+    top: 38%;
+    right: 8%;
 }
 }
 
@@ -674,20 +690,23 @@ header {
        .blocks h1{
         margin-bottom: 6%;
        }
+
+       .blocks p{
+font-size: 0.8rem;       }
        
-       .c {
-        height: 18rem;
-        width: 14rem;
+    .c {
+        height: 15rem;
+        width: 13.2rem;
     }
     
     .d {
-        height: 18rem;
-        width: 14rem;
+        height: 15rem;
+        width: 13.2rem;
     }
     
     .b {
-        height: 18rem;
-        width: 14rem;
+        height: 15rem;
+        width: 13.2rem;
     }
     
     .semi-blocks {
@@ -719,7 +738,7 @@ header {
        
        .c {
         height: 18rem;
-        width: 18rem;
+        width: 16rem;
     }
     
     .d {
@@ -1075,24 +1094,29 @@ header {
 }
 @media only screen and (max-width:600px) and (min-width: 0px) {
     .embla__slide {
-        height: 22rem;
+        height: 19rem;
         border-radius: 10px;
-        width: 190rem;
-        padding: 1% 10%;
+        width: 90rem;
+        padding: 1% 40%;
         margin-top: 50%;
-        margin-bottom: 30%;
+        margin-bottom: 40%;
     }  
     .embla__slide img{
         width: 6rem
     }
     .embla__slide p{
-        width: 100%;
-        font-size:0.65rem
+        width: 140%;
+        font-size: 0.6rem;
         }
      .girl{
         width: 50%;
     }
-    
+    .md{
+        margin-left: 120%;
+    }
+    .snoop{
+        display: none;
+    }
     .swiper{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
