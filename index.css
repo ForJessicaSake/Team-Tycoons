@@ -1119,9 +1119,9 @@ font-size: 0.8rem;       }
     
     }
 }
-@media only screen and (max-width:600px) and (min-width: 0px) {
+@media only screen and (max-width:800px) and (min-width: 0px) {
     .embla__slide {
-        height: 19rem;
+        height: 20rem;
         border-radius: 10px;
         width: 90rem;
         padding: 1% 40%;
@@ -1129,7 +1129,7 @@ font-size: 0.8rem;       }
         margin-bottom: 40%;
     }  
     .embla__slide img{
-        width: 6rem
+        width: 6.5rem
     }
     .embla__slide p{
         width: 140%;
