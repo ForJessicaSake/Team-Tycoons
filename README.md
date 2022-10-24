@@ -28,7 +28,7 @@ Here are some of the links you should look out for to make navigation on the sit
 ## Duties of Contributors 
 
 - The Navigation - Jessica Joseph
-- Home Page - Somtochukwu Nwosu & Chukwunonso Nwankwo
+- Home Page - Somtochukwu Nwosu & Chukwunonso Nwankwo & Jessica Joseph
 - The Footer - Jessica Joseph
 
 ## Product 
