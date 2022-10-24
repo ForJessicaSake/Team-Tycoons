@@ -8,7 +8,7 @@ AWESOME UI is a landing page developed by the Tech Tycoons Devcareer Frontend In
 - HTML
 - CSS
 - JAVASCRIPT
-- BOOTSTRAP
+- Swiper JS
 
 ## 👋  Meet The Team
 
